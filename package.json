@@ -1,1 +1,26 @@
-{"name":"reactjs","version":"1.0.0","description":"reactapp","scripts":{"test":"just"},"author":"shashank","license":"ISC","devDependencies":{"parcel":"^2.12.0"},"dependencies":{"react":"^18.2.0","react-dom":"^18.2.0"}}
+{
+  "name": "food-del",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "shashank",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.38",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "dom": "^0.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.0",
+    "router": "^1.3.8"
+  }
+}
